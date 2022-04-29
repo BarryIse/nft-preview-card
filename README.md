@@ -4,8 +4,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 A simple one page nft preview card component
 
-- Solution URL:()
-- Live Site URL:()
+- Solution URL:(https://github.com/BarryIse/nft-preview-card.git)
+- Live Site URL:(https://barryise.github.io/nft-preview-card/)
 
 Built with
 - Semantic HTML5 markup
@@ -16,5 +16,5 @@ I learnt how to use overlay effect on an image, it took me a while to figure out
 
 (https://fonts.google.com) - This helped me for my fonts. I imported my font-family Outfit directly from here, and it was stress free.
 
-Website -()
+Website -(https://barryise.github.io/)
 Twitter - [@BarryIshe](https://www.twitter.com/BarryIshe)
