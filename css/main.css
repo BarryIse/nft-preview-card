@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background: #0d192b;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .container {
+  text-align: center;
+  background: #14253d;
+  padding: 2rem;
+  margin-top: 7rem;
+  border-radius: 2rem;
+}
+
+section .container .box .image {
+  width: 30rem;
+  height: 30rem;
+  position: relative;
+}
+
+section .container .box .image .equilibrium-img {
+  opacity: 1;
+  width: 30rem;
+  height: auto;
+  border-radius: 1rem;
+  display: block;
+}
+
+section .container .box .overlay {
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  top: 9rem;
+  opacity: 0;
+  cursor: pointer;
+  background: cyan;
+}
+
+section .container .box .overlay img {
+  margin-top: 12rem;
+}
+
+section .container .box .overlay:hover {
+  background: cyan;
+  opacity: 0.4;
+}
+
+section .num {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+section .num h1 {
+  color: white;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+section .num h1:hover {
+  color: cyan;
+}
+
+section .num p {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  color: #8bacda;
+}
+
+section .value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: left;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #8bacda;
+}
+
+section .value span {
+  color: cyan;
+}
+
+section hr {
+  margin-top: 1.5rem;
+  border-bottom: 1px #8bacda;
+}
+
+section .footer {
+  padding-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .footer img {
+  width: 3rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+section .footer p {
+  color: #8bacda;
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+}
+
+section .footer p span {
+  color: white;
+  cursor: pointer;
+}
+
+section .footer p span:hover {
+  color: cyan;
+}
+/*# sourceMappingURL=main.css.map */

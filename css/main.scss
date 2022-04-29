@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+body{
+    background: hsl(217, 54%, 11%);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+
+    .container{
+        text-align: center;
+        background: hsl(216, 50%, 16%);
+        padding: 2rem;
+        margin-top: 7rem;
+        border-radius: 2rem;
+
+        .box{
+
+            .image{
+                width: 30rem;
+                height: 30rem;
+                position: relative;
+
+                .equilibrium-img{
+                    opacity: 1;
+                    width: 30rem;
+                    height: auto;
+                    border-radius: 1rem;
+                    display: block;
+                }
+            }
+
+            .overlay{
+                position: absolute;
+                width: 30rem;
+                height: 30rem;
+                top: 9rem;
+                opacity: 0;
+                cursor: pointer;
+                background: cyan;
+
+                img{
+                    margin-top: 12rem;
+                }
+            }
+
+            .overlay:hover{
+                background: cyan;
+                opacity: 0.4;
+            }
+        }
+        
+    }
+       
+
+        .num{
+            text-align: left;
+            margin-top: 2rem;
+
+            h1{
+            color: white;
+            font-size: 2.5rem;
+            cursor: pointer;
+            }  
+            h1:hover{
+               color: cyan;
+            } 
+
+            p{
+                font-size: 1.5rem;
+                padding-top: 1rem;
+                color: hsl(215, 51%, 70%);
+            }
+        }
+
+        .value{
+            display: flex;
+            justify-content: space-between;
+            text-align: left;
+            margin-top: 2rem;
+            font-size: 1.5rem;
+            color: hsl(215, 51%, 70%);
+
+            span{
+                color: cyan;
+            }
+        }
+
+        hr{
+            margin-top: 1.5rem;
+            border-bottom: 1px hsl(215, 51%, 70%);
+        }
+
+      .footer{
+          padding-top: 2rem;
+          display: flex;
+          align-items: center;
+
+          img{
+              width: 3rem;
+              border: 1px solid white;
+              border-radius: 50%;
+          }
+
+          p{
+              color: hsl(215, 51%, 70%);
+              margin-left: 1.5rem;
+              font-size: 1.5rem;
+
+              span{
+                  color: white;
+                  cursor: pointer;
+              }
+              span:hover{
+                  color: cyan;
+              }
+          }
+      }
+    
+}
