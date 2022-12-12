@@ -28,19 +28,14 @@ section{
         border-radius: 2rem;
 
         .box{
-
+            width: 30rem;
+            height: 30rem;
+            background-image: url(/images/image-equilibrium.jpg);
+            background-size: contain;
+            
             .image{
                 width: 30rem;
-                height: 30rem;
-                position: relative;
-
-                .equilibrium-img{
-                    opacity: 1;
-                    width: 30rem;
-                    height: auto;
-                    border-radius: 1rem;
-                    display: block;
-                }
+                height: 30rem;     
             }
 
             .overlay{
@@ -51,32 +46,31 @@ section{
                 opacity: 0;
                 cursor: pointer;
                 background: cyan;
+                background: hsla(178, 100%, 50%, 0.4);
+                display: flex;
+                
+                &:hover{
+                    opacity: 1;
+                }
 
                 img{
-                    margin-top: 12rem;
+                    margin: auto;
                 }
             }
-
-            .overlay:hover{
-                background: cyan;
-                opacity: 0.4;
-            }
-        }
-        
-    }
+       }
        
-
         .num{
             text-align: left;
             margin-top: 2rem;
 
             h1{
-            color: white;
-            font-size: 2.5rem;
-            cursor: pointer;
-            }  
-            h1:hover{
-               color: cyan;
+                color: white;
+                font-size: 2.5rem;
+                cursor: pointer;
+                
+                &:hover{
+                    color: hsl(178, 100%, 50%);
+                }
             } 
 
             p{
@@ -94,8 +88,8 @@ section{
             font-size: 1.5rem;
             color: hsl(215, 51%, 70%);
 
-            span{
-                color: cyan;
+            .eth{
+                color: hsl(178, 100%, 50%);
             }
         }
 
@@ -123,11 +117,12 @@ section{
               span{
                   color: white;
                   cursor: pointer;
-              }
-              span:hover{
-                  color: cyan;
+                  
+                  &:hover{
+                        color: hsl(178, 100%, 50%);
+                  }
               }
           }
       }
-    
+   }
 }
