@@ -28,7 +28,7 @@ section .container {
 section .container .box {
   width: 30rem;
   height: 30rem;
-  background-image: url(/images/image-equilibrium.jpg);
+  background-image: url(../images/image-equilibrium.jpg);
   background-size: contain;
 }
 section .container .box .image {
