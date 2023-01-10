@@ -32,18 +32,16 @@ section .container {
   border-radius: 2rem;
 }
 
+section .container .box {
+  width: 30rem;
+  height: 30rem;
+  background-image: url(../images/image-equilibrium.jpg);
+  background-size: contain;
+}
+
 section .container .box .image {
   width: 30rem;
   height: 30rem;
-  position: relative;
-}
-
-section .container .box .image .equilibrium-img {
-  opacity: 1;
-  width: 30rem;
-  height: auto;
-  border-radius: 1rem;
-  display: block;
 }
 
 section .container .box .overlay {
@@ -53,62 +51,67 @@ section .container .box .overlay {
   top: 9rem;
   opacity: 0;
   cursor: pointer;
-  background: cyan;
-}
-
-section .container .box .overlay img {
-  margin-top: 12rem;
+  background: rgba(0, 255, 247, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 section .container .box .overlay:hover {
-  background: cyan;
-  opacity: 0.4;
+  opacity: 1;
 }
 
-section .num {
+section .container .box .overlay img {
+  margin: auto;
+}
+
+section .container .num {
   text-align: left;
   margin-top: 2rem;
 }
 
-section .num h1 {
+section .container .num h1 {
   color: white;
   font-size: 2.5rem;
   cursor: pointer;
 }
 
-section .num h1:hover {
-  color: cyan;
+section .container .num h1:hover {
+  color: #00fff7;
 }
 
-section .num p {
+section .container .num p {
   font-size: 1.5rem;
   padding-top: 1rem;
   color: #8bacda;
 }
 
-section .value {
+section .container .value {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: left;
   margin-top: 2rem;
   font-size: 1.5rem;
   color: #8bacda;
 }
 
-section .value span {
-  color: cyan;
+section .container .value .eth {
+  color: #00fff7;
 }
 
-section hr {
+section .container hr {
   margin-top: 1.5rem;
   border-bottom: 1px #8bacda;
 }
 
-section .footer {
+section .container .footer {
   padding-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -118,24 +121,24 @@ section .footer {
           align-items: center;
 }
 
-section .footer img {
+section .container .footer img {
   width: 3rem;
   border: 1px solid white;
   border-radius: 50%;
 }
 
-section .footer p {
+section .container .footer p {
   color: #8bacda;
   margin-left: 1.5rem;
   font-size: 1.5rem;
 }
 
-section .footer p span {
+section .container .footer p span {
   color: white;
   cursor: pointer;
 }
 
-section .footer p span:hover {
-  color: cyan;
+section .container .footer p span:hover {
+  color: #00fff7;
 }
 /*# sourceMappingURL=main.css.map */
