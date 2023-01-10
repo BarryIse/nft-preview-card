@@ -30,12 +30,12 @@ section{
         .box{
             width: 30rem;
             height: 30rem;
-            background-image: url(../images/image-equilibrium.jpg);
+            background-image: url(/images/image-equilibrium.jpg);
             background-size: contain;
-
+            
             .image{
                 width: 30rem;
-                height: 30rem;
+                height: 30rem;     
             }
 
             .overlay{
@@ -87,8 +87,6 @@ section{
             margin-top: 2rem;
             font-size: 1.5rem;
             color: hsl(215, 51%, 70%);
-                
-    
             .eth{
                 color: hsl(178, 100%, 50%);
             }
@@ -97,32 +95,32 @@ section{
             margin-top: 1.5rem;
             border-bottom: 1px hsl(215, 51%, 70%);
         }
-    
-        .footer{
-            padding-top: 2rem;
-            display: flex;
-            align-items: center;
-    
-            img{
-                width: 3rem;
-                border: 1px solid white;
-                border-radius: 50%;
-            }
-    
-            p{
-                color: hsl(215, 51%, 70%);
-                margin-left: 1.5rem;
-                font-size: 1.5rem;
-    
-                span{
-                    color: white;
-                    cursor: pointer;
-    
-                    &:hover{
+
+      .footer{
+          padding-top: 2rem;
+          display: flex;
+          align-items: center;
+
+          img{
+              width: 3rem;
+              border: 1px solid white;
+              border-radius: 50%;
+          }
+
+          p{
+              color: hsl(215, 51%, 70%);
+              margin-left: 1.5rem;
+              font-size: 1.5rem;
+
+              span{
+                  color: white;
+                  cursor: pointer;
+                  
+                  &:hover{
                         color: hsl(178, 100%, 50%);
-                    }
-                }
-            }
-        }
-    }    
+                  }
+              }
+          }
+      }
+   }
 }
